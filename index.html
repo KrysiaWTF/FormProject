@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Froms Project</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="normalize.css">
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="header__title">
+      Formluarz - ćwiczenie z pracy domowej
+    </h1>
+  </header>
+  <main>
+    <form action="http://dev.cotendrontend.pl" method="POST" class="form">
+      <p>
+        <label class="form__label" for="name"> Your name: </label> 
+        <input class="form__input" name="name" id="name" placeholder="Krysia">
+      </p>
+      <p>
+        <label class="form__label" for="riddle"> What riddle? </label>
+        <input class="form__input" name="riddle" id="riddle" placeholder="Riddle Answer">
+      </p>
+      <input type="submit" value="Submit the form">
+    </form>
+  </main>
+  
+</body>
+</html>
